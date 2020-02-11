@@ -8,7 +8,7 @@ function App() {
           <Fouter>
         <div >
 
-          <h1> Tarun poorimon</h1>
+          <h1></h1>
         </div>
           </Fouter>
       </Context>

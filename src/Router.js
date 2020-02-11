@@ -9,8 +9,8 @@ import {
   function Fouter(){
     return(
         <Router>
-            <Link to="/">Home </Link>
-            <Link to="/Dashboard">Dashboard</Link>
+            <Link to="/">HOmempage  </Link>
+            <Link to="/Dashboard">dash</Link>
         </Router>
     );
 }
