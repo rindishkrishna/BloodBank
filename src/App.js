@@ -1,18 +1,23 @@
-import React,{Component}from 'react';
-import Context from './Context';
-import Fouter from "./Router";
+import React from 'react';
+import Context from './context/Context';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
 function App() {
   return (
       <Context>
-          <Fouter>
-        <div >
-
-          <h1></h1>
-        </div>
-          </Fouter>
+          <Router>
+            <Switch>
+              <Route path="/">
+                <h1>safasf</h1>
+              </Route>
+            </Switch>
+        </Router>
       </Context>
-)
+);
 
 }
 
