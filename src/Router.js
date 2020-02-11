@@ -6,11 +6,12 @@ import {
     Link
 } from "react-router-dom";
 
-export default  function Router(){
+  function Fouter(){
     return(
         <Router>
             <Link to="/">Home </Link>
             <Link to="/Dashboard">Dashboard</Link>
         </Router>
-    )
+    );
 }
+export default Fouter;

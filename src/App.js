@@ -1,16 +1,16 @@
 import React,{Component}from 'react';
 import Context from './Context';
-import Router from "./Router";
+import Fouter from "./Router";
 
 function App() {
   return (
       <Context>
-          <Router>
+          <Fouter>
         <div >
 
           <h1> Tarun poorimon</h1>
         </div>
-          </Router>
+          </Fouter>
       </Context>
 );
 
