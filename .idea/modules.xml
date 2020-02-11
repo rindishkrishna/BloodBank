@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/manas.iml" filepath="$PROJECT_DIR$/.idea/manas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../template reactnative/.idea/moneymanagement.iml" filepath="$PROJECT_DIR$/../template reactnative/.idea/moneymanagement.iml" />
     </modules>
   </component>
 </project>
