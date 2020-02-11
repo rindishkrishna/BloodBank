@@ -9,7 +9,7 @@ import {
   function Fouter(){
     return(
         <Router>
-            <Link to="/">HOmempage  </Link>
+            <Link to="/">Homepage  </Link>
             <Link to="/Dashboard">dash</Link>
         </Router>
     );
