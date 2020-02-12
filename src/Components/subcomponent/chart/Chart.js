@@ -1,4 +1,4 @@
-import './chart.sass';
+import './chart.scss';
 import React, {useEffect, useRef} from 'react';
 import Chart from 'chart.js';
 
