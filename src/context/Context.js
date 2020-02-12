@@ -4,7 +4,11 @@ import React, {
     Component
 } from 'react';
 
+<<<<<<< HEAD
+export const Hooks = createContext({});
+=======
 export const Hooks = createContext();
+>>>>>>> 07732830ec30871d3c4a0a917d852e259fa74ae0
 
 class Context extends Component {
     constructor(props) {
