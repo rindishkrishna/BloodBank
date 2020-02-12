@@ -1,6 +1,6 @@
 import React,{createContext,Component} from 'react';
 
-export const Hooks =createContext();
+export const Hooks = createContext({});
 
 class Context extends Component {
     constructor(props) {
