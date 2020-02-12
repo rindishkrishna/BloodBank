@@ -12,7 +12,7 @@ function App() {
             <Chart />
           </Route>
           <Route path="/">
-            <h1>safasf</h1>
+            <button className="btn btn-dark" >assdsdaf</button>
           </Route>
         </Switch>
       </Router>
