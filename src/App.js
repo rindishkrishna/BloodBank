@@ -1,7 +1,8 @@
-import React from "react";
-import Context from "./context/Context";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import React from 'react';
+import Context from './context/Context';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Chart from './components/chart/Chart';
+import Bloodgroup from './Screens/Bloodgroup/Bloodgroup';
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
           <Route path="/chart">
             <Chart />
           </Route>
-          <Route path='/'>
-            <button className="btn btn-dark" >assdsdaf</button>
+          <Route path="/">
+            <Bloodgroup />
           </Route>
         </Switch>
       </Router>
