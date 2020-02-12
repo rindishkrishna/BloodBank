@@ -2,6 +2,7 @@ import React from "react";
 import Context from "./context/Context";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import DonerList from "./components/DonerList/DonerList"
+import Chart from './Components/subcomponent/chart/Chart';
 
 function App() {
   return (
@@ -14,7 +15,10 @@ function App() {
             <Route path="/">
                 d
             </Route>
-        </Switch>
+          <Route path="/chart">
+            <Chart />
+          </Route>
+</Switch>
       </Router>
     </Context>
   );
